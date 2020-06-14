@@ -32,10 +32,10 @@ int main()
 
     //graficke pole
     char hernipole[DELKA_RADKU][DELKA_SLOUPCE];
-    memset(hernipole, '*', sizeof(hernipole[0][0])*DELKA_RADKU*DELKA_SLOUPCE);
+    memset(hernipole, '*', sizeof(hernipole));
     //hadaci pole
     int pexesopole[DELKA_RADKU][DELKA_SLOUPCE];
-    memset(pexesopole, -1, sizeof(pexesopole[0][0])*DELKA_RADKU*DELKA_SLOUPCE);
+    memset(pexesopole, -1, sizeof(pexesopole));
     //nahodne naplneni pexesopole
     nahodnerazeni(pexesopole);
 
